@@ -3,32 +3,32 @@
 - [ ] Draw map
 
 15/05/2024
-- [v] Fix character animation
-- [v] Draw map
-- [v] Secret
-- [v] Parallax background
-- [v] Redraw the spring
+- [x] Fix character animation
+- [x] Draw map
+- [x] Secret
+- [x] Parallax background
+- [x] Redraw the spring
 
 17/05/2024
-- [v] Fix the music
-- [v] Update UI
+- [x] Fix the music
+- [x] Update UI
 - [ ] Map 2
-- [v] Game name
-- [v] Update map 1
+- [x] Game name
+- [x] Update map 1
 
 18/05/2024
 - [ ] Update map 1 (add new secret to the room that you can play flappy fox)
 - [ ] Map 2
 - [ ] Update the first secret (add new dialogue and chance to trigger it)
-- [v] Fix hitbox -> Buff to player (i guess so ???)
+- [x] Fix hitbox -> Buff to player (i guess so ???)
 
 20/05/2024
-- [v] Update map 1 (add new secret to the room that you can play flappy fox)
-- [v] Update the first secret (add new dialogue and chance to trigger it)
-- [v] Add flappy fox to the main game (Maybe ?)
+- [x] Update map 1 (add new secret to the room that you can play flappy fox)
+- [x] Update the first secret (add new dialogue and chance to trigger it)
+- [x] Add flappy fox to the main game (Maybe ?)
 - [ ] Map 2 (working)
-- [v] Fix audio not working
-- [v] Soundtrack ???
+- [x] Fix audio not working
+- [x] Soundtrack ???
 - [ ] Draw the boss
 - [ ] Find a way to spawn weapons
 - ~~[ ] Boss battle~~
@@ -40,7 +40,7 @@
 	- ~~[ ] Phase 5 (10 - 0HP) : No bomb spawn and have to survive for 2m in order to spawn the final weapon~~
 
 21/05/2024
-- [v] Map 2
+- [x] Map 2
 - [ ] Overhaul boss :
 	- Make boss fight easier to make and play
 	- Change giant robot to duo-barrel gun & 2 gun on each top side
@@ -49,27 +49,27 @@
 	- [ ] Draw new boss
 
 22/05/2024
-- [v] 2 gun (working)
-	- [v] How to keep shooting when in area
-	- [v] Get player position to shoot
-	- [v] Fix bullet collision
+- [x] 2 gun (working)
+	- [x] How to keep shooting when in area
+	- [x] Get player position to shoot
+	- [x] Fix bullet collision
 - [ ] Find a way to spawn weapons
 - [x] Soundtrack for map 2
-- [v] Draw new boss
+- [x] Draw new boss
 
 23/05/2024
-- [v] Update health (100 -> 50)
+- [x] Update health (100 -> 50)
 - [ ] Boss
-	- [v] Fix move animation
+	- [x] Fix move animation
 	- [ ] Add ability to attack
-	- [v] Death animation
-- [v] Spawn weapons
+	- [x] Death animation
+- [x] Spawn weapons
 - Benchmark result :
 	- Ram : 1,5 GB
 	- CPU : 10 - 30 % (i3-11th)
 	- Storage : ???
 	- GPU : No need
-- [v] Fix weapons deal no damage
+- [x] Fix weapons deal no damage
 
 24/05/2024
 - [ ] Add boss attack
@@ -78,10 +78,10 @@
 
 25/05/2024
 - [x] Fix character movement
-- [v] Fix weapon mechanic (perfect)
-- [v] Transition
+- [x] Fix weapon mechanic (perfect)
+- [x] Transition
 - [ ] Add boss attack (idk i can do it or not :/ )
-- [v] END
+- [x] END
 
 26/05/2024
 
@@ -91,3 +91,8 @@
 31/05/2024
 - Minor fix
 - Need to fix/improve character hitbox (Big error)
+
+01/06/2024
+
+# FINAL WORD
+## This is repo a part of source code

@@ -1,5 +1,5 @@
 08/05/2024
-- [v] Overhaul game camera
+- [x] Overhaul game camera
 - [ ] Draw map
 
 15/05/2024

@@ -1,17 +1,17 @@
 extends Area2D
 
-signal minigame
+@onready var player = $"../Player"
 
 func _on_body_entered(body):
 	if body.name == "Player":
 		$CanvasLayer/Panel.show()
 
 func _on_duh_pressed():
-	emit_signal('minigame')
+	player.position = Vector2(881, -19319)
 	$CanvasLayer/Panel.hide()	
 
 func _on_nah_pressed():
 	$CanvasLayer/Panel.hide()
 
-func _on_body_exited(body):
+func _on_body_exited():
 	$CanvasLayer/Panel.hide()

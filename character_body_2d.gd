@@ -44,16 +44,3 @@ func _physics_process(delta):
 
 	if is_on_floor() and is_jumping:
 		is_jumping = false
-
-func _on_spring_jumpboost():
-	velocity.y = -1300
-	$Jump.play()
-
-func _on_boot_tele():
-	position = Vector2(1314, -1465)
-
-func _on_portal_minigame():
-	position = Vector2(881, -19319)
-
-func _on_back_back():
-	position = Vector2(1942, -2165)

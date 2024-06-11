@@ -1,7 +1,7 @@
 extends Area2D
 
-signal tele
+@onready var player = $"../Player"
 
 func _on_body_entered(body):
 	if body.name == "Player":
-		emit_signal('tele')
+		player.position = Vector2(1314, -1465)

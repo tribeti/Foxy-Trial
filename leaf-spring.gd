@@ -1,7 +1,7 @@
 extends Area2D
 
-signal jumpboost
+@onready var jump_handle = %Jump_Handle
 
 func _on_body_entered(body):
 	if body.name == "Player":
-		emit_signal('jumpboost')
+		jump_handle._bounce_process()

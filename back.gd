@@ -1,13 +1,13 @@
 extends Area2D
 
-signal back
+@onready var player = $"../Player"
 
 func _on_body_entered(body):
 	if body.name == "Player":
 		$CanvasLayer/panel.show()
 
 func _on_duh_pressed():
-	emit_signal('back')
+	player.position = Vector2(1942, -2165)
 	$CanvasLayer/panel.hide()	
 
 func _on_nah_pressed():
